@@ -19,13 +19,13 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Order {
 
-    // We can use also UUID
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer orderId;
+    private Integer orderId;    // We can use also UUID
 
     @Enumerated(EnumType.STRING)
-    private String orderStatus;
+    private ProductStatus orderStatus;
 
     @CreationTimestamp
     @Column(nullable = false, updatable = false)
