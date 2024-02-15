@@ -9,4 +9,16 @@ import org.springframework.hateoas.RepresentationModel;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ReviewResponseDto extends RepresentationModel<ReviewResponseDto> {
+
+     private Integer reviewId;
+
+    private String customerReview;
+
+    private Double customerRating;
+
+    private List<Image> images;
+
+    private LocalDateTime reviewTimeStamp;
+
+    private CustomerDetailsResponseDto customer;
 }
