@@ -34,4 +34,19 @@ public class Address {
 
     // we can also use specific pattern using regex. e.g:"[0-9]{6} for india"
     private String pincode;
+
+    // TEST JSON
+    /*
+    {
+        "addressLine1": ,
+        "addressLine2": ,
+        "buildingName": ,
+        "landMark": ,
+        "city": ,
+        "state": ,
+        "country": ,
+        "pincode": .
+    }
+    */
+
 }
